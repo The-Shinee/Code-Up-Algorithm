@@ -17,8 +17,8 @@ int main()
 	}
 	catch(int expn)
 	{
-		std::cout << "[ error ] : a ¶Ç´Â b °ªÀÌ ¹üÀ§¸¦ ¹þ¾î³µ½À´Ï´Ù." << std::endl;
-		std::cout << "¹þ¾î³­ °ª : " << expn << std::endl; 
+		std::cout << "[ error ] : a ï¿½Ç´ï¿½ b ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½î³µï¿½ï¿½ï¿½Ï´ï¿½." << std::endl;
+		std::cout << "ï¿½ï¿½ï¿½î³­ ï¿½ï¿½ : " << expn << std::endl; 
 	}
 	
 	return 0;
