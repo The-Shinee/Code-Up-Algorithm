@@ -20,7 +20,7 @@ int main()
         back = 3;
     }
 
-    cout << setw(2) << setfill('0') << front << ' ' << back;
+    cout << front << ' ' << back;
 
     return 0;
 }
