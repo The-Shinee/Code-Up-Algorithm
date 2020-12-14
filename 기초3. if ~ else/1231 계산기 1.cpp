@@ -19,7 +19,9 @@ int main()
             cout << a * b;
             break;
         case '/':
-            cout << a / b;
+            cout << fixed;
+            cout.precision(2);
+            cout << static_cast<double>(a) / static_cast<double>(b);
             break; 
     }
 
